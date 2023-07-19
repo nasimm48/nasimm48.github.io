@@ -416,6 +416,12 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "b231f11f-6dcd-48f9-bce8-e2dcf1b629d2",
+        apiHost: "https://aichatbotgh.onrender.com",
+    })
+</script>
 </body>
 </html>
